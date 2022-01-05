@@ -5,7 +5,6 @@
 }
 
 header {
-  width: 100%;
   height: 50px;
   background-color: #ff9a4b;
 }
@@ -62,7 +61,6 @@ main {
 }
 
 footer {
-  width: 100%;
   height: 50px;
   background-color: #aaaaaa;
 }
@@ -77,24 +75,28 @@ footer {
     margin: 50px 5%;
   }
 
-  .step-box {
+  .main-contents {
     margin-bottom: 20px;
     width: 90%;
   }
 
-  .step-img1 {
+  .main-contents:last-child {
+    margin-right: 5%;
+  }
+
+  .main-img1 {
     width: 100%;
   }
 
-  .step-img2 {
+  .main-img2 {
     width: 100%;
   }
 
-  .step-img3 {
+  .main-img3 {
     width: 100%;
   }
 
-  .step-num {
+  .main-item {
     width: auto;
   }
 
